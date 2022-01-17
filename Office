@@ -1,0 +1,153 @@
+Open a command prompt as Administrator
+In the command prompt, type the following:
+Office 2016 (32-bit) on a 32-bit version of Windows
+
+cscript "C:\Program Files\Microsoft Office\Office16\OSPP.VBS" /dstatus
+
+Office 2016 (32-bit) on a 64-bit version of Windows
+
+cscript "C:\Program Files (x86)\Microsoft Office\Office16\OSPP.VBS" /dstatus
+
+Office 2016 (64-bit) on a 64-bit version of Windows
+
+cscript "C:\Program Files\Microsoft Office\Office16\OSPP.VBS" /dstatus
+
+You should now get a screen with some license details such as the license name, type and the last 5 characters of the Product Key.
+
+You can use the last 5 characters of the Product Key to remove it using command:
+
+Office 2016 (32-bit) on a 32-bit version of Windows
+
+cscript "C:\Program Files\Microsoft Office\Office16\OSPP.VBS" /unpkey:<LAST 5 CHARACTERS>
+
+Office 2016 (32-bit) on a 64-bit version of Windows
+
+cscript "C:\Program Files (x86)\Microsoft Office\Office16\OSPP.VBS" /unpkey:<LAST 5 CHARACTERS>
+
+Office 2016 (64-bit) on a 64-bit version of Windows
+
+cscript "C:\Program Files\Microsoft Office\Office16\OSPP.VBS" /unpkey:<LAST 5 CHARACTERS>
+
+Enjoy!
+
+====================================================================================
+
+Windows 10 Professional	W269N-WFGWX-YVC9B-4J6C9-T83GX
+Windows 10 Pro Key	VK7JG-NPHTM-C97JM-9MPGT-3V66T
+Windows 10 Pro	44RPN-FTY23-9VTTB-MP9BX-T84FV
+Windows 10 Professional	WNMTR-4C88C-JK8YV-HQ7T2-76DF9
+
+====================================================================================
+Visual Studio 2022
+2022	 	
+Enterprise:
+VHF9H-NXBBB-638P6-6JHCY-88JWH
+
+Professional:
+TD244-P4NB7-YQ6XK-Y8MMM-YWV2J
+
+Visual Studio 2020
+2020	 	HG8FD-DR6F8-T7G9Y-H80UI-9NUB8
+YV7T8-R6C8R-C6VT9-7GBHY-80NUJ
+T6RX5-EZXCR-6VT7B-Y80NU-HBGVF
+CDX5X-7E5CR-86VT7-9BY9V-7TC8R
+Visual Studio 2019
+2019	16.x	Professional:
+NYWVH-HT4XC-R2WYW-9Y3CM-X4V3Y
+Enterprise:
+BF8Y8-GN2QH-T84XB-QVY3B-RC4DF
+
+Visual Studio 2017
+2017	15.x	Test Professional:
+VG622-NKFP4-GTWPH-XB2JJ-JFHVF
+Professional:
+KBJFW-NXHK6-W4WJM-CRMQB-G3CDH
+4F3PR-NFKDB-8HFP7-9WXGY-K77T7
+
+Enterprise:
+NJVYC-BMHX2-G77MM-4XJMR-6Q8QF
+N2VYX-9VR2K-T733M-MWD9X-KQCDF
+
+Visual Studio 2015
+2015	14.x	Professional:
+HMGNV-WCYXV-X7G9W-YCX63-B98R2
+Enterprise:
+HM6NR-QXX7C-DFW2Y-8B82K-WTYJV
+2XNFG-KFHR8-QV3CP-3W6HT-683CH
+
+Team Foundation Server:
+PTBNK-HVGCM-HB2GW-MXWMH-T3BJQ
+
+Visual Studio 2013
+2013	12.x	Professional:
+XDM3T-W3T3V-MGJWK-8BFVD-GVPKY
+Premium:
+FBJVC-3CMTX-D8DVP-RTQCT-92494
+
+Ultimate:
+BWG7X-J98B3-W34RT-33B3R-JVYW9
+
+Team Foundation Server:
+MHG9J-HHHX9-WWPQP-D8T7H-7KCQG
+
+Visual Studio 2012
+2012	11.x	Professional:
+4D974-9QX42-9Y43G-YJ7JG-JDYBP
+Premium:
+MH2FR-BC9R2-84433-47M63-KQVWC
+
+Ultimate:
+YKCW6-BPFPF-BT8C9-7DCTH-QXGWC
+RBCXF-CVBGR-382MK-DFHJ4-C69G8
+YQ7PR-QTHDM-HCBCV-9GKGG-TB2TM
+MMVJ9-FKY74-W449Y-RB79G-8GJGJ
+YCFHQ-9DWCY-DKV88-T2TMH-G7BHP
+
+Team Foundation Server:
+BVGTF-T7MVR-TP46H-9Q97G-XBXRB
+
+Visual Studio 2010
+2010	10.x	Professional/Ultimate (built-in or below):
+YCFHQ-9DWCY-DKV88-T2TMH-G7BHP
+Visual Studio 2008
+2007	9.x	
+Express: Not required
+
+Professional:
+XMQ2Y-4T3V6-XJ48Y-D3K2V-6C4WT
+WPX3J-BXC3W-BPYWP-PJ8CM-F7M8T
+PYHYP-WXB3B-B2CCM-V9DX9-VDY8T
+WPDW8-M962C-VJX9M-HQB4Q-JVTDM
+
+Visual Studio 2005
+2005	8.x	
+Express: Not required
+
+Standard: Not required
+
+Professional:
+KGR3T-F2C26-RRTGT-D6DQT-QBBB3
+
+######################################################################
+# Office activation steps                                            #
+#####################################################################
+
+1.) CD \Program Files\Microsoft Office\Office16
+(If you are using 32-bit MS Office version installed on 64-bit Windows, you need give this command:
+CD \Program Files (x86)\Microsoft Office\Office16 )
+
+2.) Specify names of server: cscript ospp.vbs /sethst:kms01.yourdomain.com
+
+3.) Activate the product:
+cscript ospp.vbs /act
+You can get the present status of activation using this command:
+cscript ospp.vbs /dstatusall
+ 
+Office Professional Plus 2016 - XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99
+Office Standard 2016 - JNRGM-WHDWX-FJJG3-K47QV-DRTFM
+ 
+Project Professional 2016 - YG9NW-3K39V-2T3HJ-93F3Q-G83KT
+Project Standard 2016 - GNFHQ-F6YQM-KQDGJ-327XX-KQBVC
+ 
+Visio Professional 2016 - PD3PC-RHNGV-FXJ29-8JK7D-RJRJK
+Visio Standard 2016 - 7WHWN-4T7MP-G96JF-G33KR-W8GF4
